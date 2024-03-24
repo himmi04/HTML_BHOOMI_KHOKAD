@@ -1,0 +1,54 @@
+<!-- 1.	Make a webpage that shows the recipe for grilled cheese sandwiches with bacon and tomato. The ingredients should be displayed as an unordered list, with no bullets. Meat ingredients should have a light red background color, vegetables should have a light green background, and dairy products should have a light yellow. The title should be in a sans serif font of your choice, and the instructions should have a heading “Instructions” and the font for the instructions should be italic. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grilled Cheese Sandwich</title>
+	<style>
+		ul li{
+			list-style: none;
+			display: block;
+			margin: 10px 0px;
+		}
+		h5{
+			font-family: times new roman;
+			font-style:italic; 
+			font-size: 20px;
+		}
+		.I_Meat{
+			background-color: rgb(242, 85, 85);
+		}
+		.I_vegies{
+			background-color: lightgreen;
+		}
+		.I_dairy{
+			background-color: lightyellow;
+		}
+
+		ol li{
+			margin: 50px 0px;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="font-family: sans serif;">Recipe for Grilled Cheese Sandwich with Bacon and Tomato</h1>
+	<h5>Ingredients</h5>
+	<ul>
+		<li class="I_Meat">8 slices Bacon</li>
+		<li class="I_dairy">1/4 cup softened Butter</li>
+		<li class="I_dairy">8 slices of White Bread</li>
+		<li class="I_dairy">8 slices of American cheese</li>
+		<li class="I_vegies">8 slices of Tomato</li>
+	</ul>
+	<h5 >Instructions</h5>
+	<ol>
+		<li>Spread about 1 tablespoon butter into the bottom of a large skillet (or just leave some fat in the pan from the bacon).</li>
+		<li>Spread 1 tablespoon (can use more) onto one side of each slice of bread.</li>
+		<li>Place the 4 slices of bread butter-side down onto a large skillet or flat grill.</li>
+		<li>Top with 1 slice of cheese, 2 slices of tomato and 2 slices cooked bacon, then 1 more slice of cheese.</li>
+		<li>Cover with a slice of bread (butter-side facing outside).</li>
+		<li>Fry over medium turning once with a spatula until golden brown on both sides.</li>
+	</ol>
+</body>
+</html>

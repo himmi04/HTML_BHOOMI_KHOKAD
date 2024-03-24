@@ -1,0 +1,42 @@
+<!-- 3.	Add 3 image in 1st row, apply rotate 15 degree effect to it on mouse hover to all the images. Also add transition for smooth effect. Add 3 image in 2nd row, apply scale 1.2 effect to it on mouse hover to all the images. Also add transition for smooth effect. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Question 3</title>
+	<style>
+		.table_1 th img{
+			display: block;
+			height: 400px;
+			width: 400px;
+			margin: 10px 0px 20px 20px;
+		}
+		.table_1  th img:hover{
+			rotate:15deg;
+		}
+		.table_2 th img{
+			height:400px;
+			width: 400px;
+			margin: 10px 0px 20px 20px;
+			transition-property: transform;
+			transition-duration: 5s;
+		}
+		.table_2 th img:hover{
+			transform: scale(1.2);
+		}
+	</style>
+</head>
+<body>
+	<table class="table_1">
+		<th> <img src="\Users\user\Desktop\website project\images & videos\universe.jpg"> </th>
+		<th> <img src="\Users\user\Desktop\website project\images & videos\lemur.jpg"> </th>
+		<th> <img src="\Users\user\Desktop\website project\images & videos\cat.jpg"> </th>
+	</table>
+	<table class="table_2">
+		<th> <img src="\Users\user\Desktop\website project\images & videos\dog.jpg"> </th>
+		<th> <img src="\Users\user\Desktop\website project\images & videos\penguin.jpg"> </th>
+		<th> <img src="\Users\user\Desktop\website project\images & videos\panda.jpg"> </th>
+	</table>
+</body>
+</html>
